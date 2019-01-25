@@ -18,8 +18,8 @@ GIT
 
 GIT
   remote: https://github.com/chef/omnibus-software
-  revision: 44f52c320c3fe866e4d4186319fb6b5537f0656f
-  branch: master
+  revision: 708cd548439b491ce7e558040ca6a6e4b867e370
+  branch: more_ruby26
   specs:
     omnibus-software (4.0.0)
       chef-sugar (>= 3.4.0)
