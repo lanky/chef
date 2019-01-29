@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/chef/omnibus
-  revision: 7c1e039856513835f728b4e0c5a4106c339e99c2
+  revision: c824e911af6dab44e9866a5e05d2e0217518a76f
   branch: master
   specs:
-    omnibus (6.0.20)
+    omnibus (6.0.21)
       aws-sdk-s3 (~> 1)
       chef-sugar (>= 3.3)
       cleanroom (~> 1.0)
@@ -18,7 +18,7 @@ GIT
 
 GIT
   remote: https://github.com/chef/omnibus-software
-  revision: 93d8f49c8a5add0efd03a05c3311e49eea82b5ed
+  revision: 3d5181c28da3fdf602f86096c00d3a7c666b538c
   branch: master
   specs:
     omnibus-software (4.0.0)
@@ -221,15 +221,15 @@ GEM
     nori (2.6.0)
     octokit (4.13.0)
       sawyer (~> 0.8.0, >= 0.5.3)
-    ohai (14.8.10)
+    ohai (14.8.11)
       chef-config (>= 12.8, < 15)
       ffi (~> 1.9)
       ffi-yajl (~> 2.2)
       ipaddress
       mixlib-cli (>= 1.7.0)
-      mixlib-config (~> 2.0)
-      mixlib-log (~> 2.0, >= 2.0.1)
-      mixlib-shellout (~> 2.0)
+      mixlib-config (>= 2.0, < 4.0)
+      mixlib-log (>= 2.0.1, < 4.0)
+      mixlib-shellout (>= 2.0, < 4.0)
       plist (~> 3.1)
       systemu (~> 2.6.4)
       wmi-lite (~> 1.0)
