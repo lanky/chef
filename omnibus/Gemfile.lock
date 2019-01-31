@@ -18,7 +18,7 @@ GIT
 
 GIT
   remote: https://github.com/chef/omnibus-software
-  revision: 708cd548439b491ce7e558040ca6a6e4b867e370
+  revision: e9ed77c703675940bcf3c8a630ae54ebaace1047
   branch: more_ruby26
   specs:
     omnibus-software (4.0.0)
@@ -33,19 +33,21 @@ GEM
     awesome_print (1.8.0)
     aws-eventstream (1.0.2)
     aws-partitions (1.144.0)
-    aws-sdk-core (3.46.2)
-      aws-eventstream (~> 1.0)
+    aws-sdk-core (3.47.0)
+      aws-eventstream (~> 1.0, >= 1.0.2)
       aws-partitions (~> 1.0)
-      aws-sigv4 (~> 1.0)
+      aws-sigv4 (~> 1.1)
+      http-2 (~> 0.10)
       jmespath (~> 1.0)
-    aws-sdk-kms (1.13.0)
-      aws-sdk-core (~> 3, >= 3.39.0)
-      aws-sigv4 (~> 1.0)
-    aws-sdk-s3 (1.31.0)
-      aws-sdk-core (~> 3, >= 3.39.0)
+    aws-sdk-kms (1.14.0)
+      aws-sdk-core (~> 3, >= 3.47.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-s3 (1.32.0)
+      aws-sdk-core (~> 3, >= 3.47.0)
       aws-sdk-kms (~> 1)
       aws-sigv4 (~> 1.0)
-    aws-sigv4 (1.0.3)
+    aws-sigv4 (1.1.0)
+      aws-eventstream (~> 1.0, >= 1.0.2)
     berkshelf (7.0.7)
       chef (>= 13.6.52)
       chef-config
@@ -167,13 +169,14 @@ GEM
       builder (>= 2.1.2)
     hashie (3.6.0)
     highline (1.7.10)
+    http-2 (0.10.1)
     httpclient (2.8.3)
     iniparse (1.4.4)
     iostruct (0.0.4)
     ipaddress (0.8.3)
     iso8601 (0.12.1)
     jmespath (1.4.0)
-    kitchen-vagrant (1.4.0)
+    kitchen-vagrant (1.5.0)
       test-kitchen (~> 1.4)
     libyajl2 (1.2.0)
     license_scout (1.0.22)

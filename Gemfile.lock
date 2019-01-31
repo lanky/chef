@@ -8,10 +8,10 @@ GIT
 
 GIT
   remote: https://github.com/chef/ohai.git
-  revision: 25857228433d879148ae39f293bbf2368e0b652e
+  revision: dd8aac97c78d23aa0afb698c1a76e5930ec9978e
   branch: master
   specs:
-    ohai (15.0.28)
+    ohai (15.0.29)
       chef-config (>= 12.8, < 16)
       ffi (~> 1.9)
       ffi-yajl (~> 2.2)
@@ -102,8 +102,7 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.5.2)
-      public_suffix (>= 2.0.2, < 4.0)
+    addressable (2.4.0)
     appbundler (0.11.6)
       mixlib-cli (~> 1.4)
       mixlib-shellout (~> 2.0)
@@ -239,7 +238,6 @@ GEM
     pry-stack_explorer (0.4.9.3)
       binding_of_caller (>= 0.7)
       pry (>= 0.9.11)
-    public_suffix (3.0.3)
     pusher-client (0.6.2)
       json
       websocket (~> 1.0)
